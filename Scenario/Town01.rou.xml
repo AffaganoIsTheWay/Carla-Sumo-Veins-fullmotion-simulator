@@ -1,0 +1,21 @@
+<routes>
+
+    <vType id="violator"
+      accel="3.0"
+      decel="2.0"
+      length="4.5"
+      maxSpeed="10"
+      jmIgnoreFoeProb="1"
+      jmIgnoreFoeSpeed="1000"
+      jmDriveAfterRedTime="1000"
+    />
+
+    <route id="r_violator" edges="2.0.00 1.0.00"/>
+
+    <vehicle id="hero" depart="0.00" type="vehicle.tesla.model3" color="0,0,1">
+        <route edges="E1 E2" />
+    </vehicle>
+
+    <vehicle id="veh_violator" type="violator" route="r_violator" depart="0"/>
+
+</routes>
