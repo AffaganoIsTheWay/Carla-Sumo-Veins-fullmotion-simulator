@@ -49,3 +49,11 @@ Gli unici davvero imporanti sono i file presenti nella cartella examples/veins:
 Qui sono presenti solo il file omnetpp.ini per far partire la simulazione e lo script 'run_veins' che è un miniscript in bash che serve automizza l'avvio della simulazione tramite terminale.
 
 E l'applicazione c++ presente in src/veins/modules/appliation/traci con messaggio custom annesso
+
+## WebServerOBS
+
+È l'applet in flask per avere l'avviso grafico si può modificare con quello che si vuole, se conoscete abbastaqnza di sviluppo web e avete vogli di divertirvi potete addiruttura fare render 3D delle zone circostanti della macchina alla "Tesla" maniera.
+
+Non lo fate era solo per dire fino a che si riuscirebbe a fare, il lavoro necessario supera di gran lunga le funzionalità.
+
+Non dimenticate l'ip dell'app quando lo usate nel Simulatore
